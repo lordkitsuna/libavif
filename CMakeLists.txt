@@ -27,7 +27,7 @@ set(LIBRARY_SOVERSION ${LIBRARY_VERSION_MAJOR})
 
 option(BUILD_SHARED_LIBS "Build shared avif library" ON)
 
-option(AVIF_ENABLE_WERROR "Treat all compiler warnings as errors" ON)
+option(AVIF_ENABLE_WERROR "Treat all compiler warnings as errors" OFF)
 
 option(AVIF_CODEC_AOM "Use the AOM codec for encoding/decoding (see AVIF_CODEC_AOM_DECODE/AVIF_CODEC_AOM_ENCODE)" OFF)
 option(AVIF_CODEC_DAV1D "Use the dav1d codec for decoding" OFF)
